@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ViewAllCategoryActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/appTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/colorOnPrimary"
+            app:popupTheme="@style/appTheme">
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:id="@+id/view_all_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E1DCDC"
+        android:paddingLeft="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="35dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Recyclerview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#E1DCDC"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_all_text" />
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#E1DCDC"
+        android:horizontalSpacing="1dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="1dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_all_text" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

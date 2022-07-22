@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#44917E</color>
+  <color name="colorPrimaryDark">#44917E</color>
+  <color name="colorAccent">#FFFFFF</color>
+  <color name="colorTextPrimary">#212121</color>
+  <color name="colorTextSecondary">#757575</color>
+  <color name="colorAbite">#FFFFFF</color>
+  <color name="gradient_start_color">#0F7A5F</color>
+  <color name="gradient_end_color">#FF64FFDA</color>
+  <color name="tab_indicator_gray">#c0c0c0</color>
+  <color name="Intro_title">#FFFFFF</color>
+  <color name="successGreen">#2AB501</color>
+  <color name="errorRed">#9f0000</color>
+
+
+
+
+</resources>

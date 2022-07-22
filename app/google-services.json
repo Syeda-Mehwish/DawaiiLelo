@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "456062433291",
+    "project_id": "dawaii-lelo",
+    "storage_bucket": "dawaii-lelo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456062433291:android:8a48cc050d737eeac32f0e",
+        "android_client_info": {
+          "package_name": "com.example.dawaiilello"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456062433291-rqesj2787on7sc05uq6mc2m19qvegjt1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIkBQEulegAUKU3TscP8UjIJC_ox0_R48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456062433291-rqesj2787on7sc05uq6mc2m19qvegjt1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
